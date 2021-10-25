@@ -1,0 +1,19 @@
+/* global rules */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------ */
+
+header {
+    height: 50px;
+    background: #4ea0ff url(../img/pattern.png) repeat;
+    background-size: 30%;
+}
+
+header img {
+    width: 100px;
+}
