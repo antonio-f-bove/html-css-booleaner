@@ -37,11 +37,17 @@ main h1 {
     font-size: 25px;
 }
 
-.big-pics img {
+.big-pics {
     /* width: 47%; */
     height: 200px;
     float: left;
     margin: 10px 2px 1px;
+}
+
+.pics-containter { 
+    content: "";
+    display: table;
+    clear: both;
 }
 
 p {
@@ -51,4 +57,21 @@ p {
 li {
     list-type-item: disc;
     margin-left: 17px;
+}
+
+table {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background: #b1e5f2;
+}
+
+th {
+    background: #37a9e5;
+    color: white;
+}
+
+td, th {
+    width: 33%;
 }
