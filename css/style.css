@@ -7,13 +7,48 @@
 }
 
 /* ------------------ */
+/* utility classes */
+.small-text {
+    font-size: 12px;
+}
+
+/* ------------------ */
+
 
 header {
     height: 50px;
     background: #4ea0ff url(../img/pattern.png) repeat;
     background-size: 30%;
+    position: relative;
 }
 
 header img {
     width: 100px;
+    position: absolute;
+    bottom: 5px;
+
+}
+
+
+main {
+    margin: 10px;
+}
+main h1 {
+    font-size: 25px;
+}
+
+.big-pics img {
+    /* width: 47%; */
+    height: 200px;
+    float: left;
+    margin: 10px 2px 1px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+li {
+    list-type-item: disc;
+    margin-left: 17px;
 }
