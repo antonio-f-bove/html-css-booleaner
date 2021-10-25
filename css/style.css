@@ -12,6 +12,10 @@
     font-size: 12px;
 }
 
+.highlighted-text {
+
+}
+
 /* ------------------ */
 
 
@@ -51,7 +55,7 @@ main h1 {
 }
 
 p {
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 
 li {
@@ -61,6 +65,7 @@ li {
 
 table {
     text-align: left;
+    margin: 20px 0;
 }
 
 tr:nth-of-type(even) {
@@ -74,4 +79,33 @@ th {
 
 td, th {
     width: 33%;
+}
+
+main h2 {
+    color: darkgray;
+}
+
+footer {
+    position: relative;
+    
+}
+
+footer a {
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    display: block;
+    margin: 10px 0;
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+a:first-of-type { 
+    background: url(../img/monitor.jpg);
+}
+
+a:last-child { 
+    background: url(../img/graph.jpg);
 }
