@@ -12,12 +12,10 @@
     font-size: 12px;
 }
 
-.highlighted-text {
-
-}
-
 /* ------------------ */
-
+body {
+    width: 800px;
+}
 
 header {
     height: 50px;
@@ -30,28 +28,28 @@ header img {
     width: 100px;
     position: absolute;
     bottom: 5px;
-
 }
 
 
 main {
     margin: 10px;
 }
+
 main h1 {
     font-size: 25px;
 }
 
-.big-pics {
-    /* width: 47%; */
+.pics-container img {
     height: 200px;
-    float: left;
     margin: 10px 2px 1px;
 }
 
-.pics-containter { 
-    content: "";
-    display: table;
-    clear: both;
+[src~="tim-1"]{
+    width: calc(60% - 4px);
+}
+
+[src~="tim-2"]{
+    width: calc(40% - 4px);
 }
 
 p {
@@ -102,10 +100,10 @@ footer a {
     text-decoration: none;
 }
 
-a:first-of-type { 
+footer a:first-of-type { 
     background: url(../img/monitor.jpg);
 }
 
-a:last-child { 
+footer a:last-child { 
     background: url(../img/graph.jpg);
 }
